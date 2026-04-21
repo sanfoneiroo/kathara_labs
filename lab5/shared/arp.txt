@@ -1,0 +1,12 @@
+Tue Apr 21 01:01:31 -03 2026
+===== ARP router =====
+Address                  HWtype  HWaddress           Flags Mask            Iface
+192.168.20.14            ether   52:bd:d8:45:2c:69   C                     eth1
+192.168.10.10            ether   de:e0:1e:0b:68:7e   C                     eth0
+192.168.20.15            ether   7a:3e:65:06:10:74   C                     eth1
+192.168.10.12            ether   de:1e:88:6a:98:d3   C                     eth0
+192.168.20.13            ether   76:d5:90:90:f0:db   C                     eth1
+192.168.10.11            ether   a6:87:3f:b0:6f:ac   C                     eth0
+
+===== FIM =====
+

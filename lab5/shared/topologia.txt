@@ -1,0 +1,130 @@
+Tue Apr 21 00:57:31 -03 2026
+===== CAMADA 1 =====
+pc10[0]=A
+pc11[0]=A
+pc12[0]=A
+router1[0]=A
+
+pc13[0]=B
+pc14[0]=B
+pc15[0]=B
+router1[1]=B
+===== pc10 interface =====
+76: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 1a:d0:15:8c:0d:fd brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.10/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc11 interface =====
+79: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 4e:15:77:f6:3a:9a brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.11/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc12 interface =====
+78: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 9e:fa:24:36:fe:d1 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.20.12/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc13 interface =====
+75: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 56:20:be:0f:1f:43 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.20.13/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc14 interface =====
+77: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 0e:d8:fd:61:fd:5b brd ff:ff:ff:ff:ff:ff
+    inet 192.168.20.14/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc15 interface =====
+73: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 5a:64:1c:1f:06:f9 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.15/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== router interfaces =====
+
+74: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 92:a0:1e:df:88:aa brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.1/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+80: eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether f6:de:31:d2:e8:f5 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.20.1/24 scope global eth1
+       valid_lft forever preferred_lft forever
+
+===== router1 routing table =====
+192.168.10.0/24 dev eth0 proto kernel scope link src 192.168.10.1 
+192.168.20.0/24 dev eth1 proto kernel scope link src 192.168.20.1 
+
+===== FIM =====
+
+Tue Apr 21 01:01:17 -03 2026
+===== CAMADA 1 =====
+pc10[0]=A
+pc11[0]=A
+pc12[0]=A
+router1[0]=A
+
+pc13[0]=B
+pc14[0]=B
+pc15[0]=B
+router1[1]=B
+===== pc10 interface =====
+85: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether de:e0:1e:0b:68:7e brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.10/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc11 interface =====
+86: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether a6:87:3f:b0:6f:ac brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.11/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc12 interface =====
+82: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether de:1e:88:6a:98:d3 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.12/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc13 interface =====
+84: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 76:d5:90:90:f0:db brd ff:ff:ff:ff:ff:ff
+    inet 192.168.20.13/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc14 interface =====
+87: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 52:bd:d8:45:2c:69 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.20.14/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== pc15 interface =====
+83: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 7a:3e:65:06:10:74 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.20.15/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+===== router interfaces =====
+
+81: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 9e:91:41:55:ee:c8 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.10.1/24 scope global eth0
+       valid_lft forever preferred_lft forever
+
+88: eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 32:47:a0:6a:7d:f2 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.20.1/24 scope global eth1
+       valid_lft forever preferred_lft forever
+
+===== router1 routing table =====
+192.168.10.0/24 dev eth0 proto kernel scope link src 192.168.10.1 
+192.168.20.0/24 dev eth1 proto kernel scope link src 192.168.20.1 
+
+===== FIM =====
+
