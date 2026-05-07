@@ -36,3 +36,5 @@ Este laboratório demonstra:
 - configuração básica de interfaces de rede em Linux  
 - execução de comandos dentro de containers com `kathara exec`  
 - validação de conectividade utilizando `ping`
+
+![topologia](lab1.png)

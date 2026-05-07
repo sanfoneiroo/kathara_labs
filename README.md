@@ -16,7 +16,11 @@ Os laboratórios utilizam principalmente ferramentas do ecossistema Linux:
 
 ## Estrutura do repositório
 ├── lab1-basic-connectivity
-└── lab2-vlan-intervlan-routing
+├── lab2-vlan-intervlan-routing
+├── lab3-static-routing
+├── lab4-traffic-analysis
+├── lab5-arp-observation
+└── lab6-samba-nas
 
 Cada diretório contém:
 
@@ -36,4 +40,16 @@ Topologia com múltiplos switches, segmentação por **VLAN**, links **trunk** e
 
 ### Lab 3 – Roteamento estático
 
-Topologia composta por **dois roteadores e duas redes distintas**, conectadas por um link intermediário, utilizando **rotas estáticas manualmente** que permitem hosts em redes diferentes consigam se comunicar através dos roteadores.
+Topologia composta por **dois roteadores e duas redes distintas**, conectadas por um link intermediário, utilizando **rotas estáticas** que permitem a comunicação entre hosts em redes diferentes através dos roteadores.
+
+### Lab 4 – Análise de tráfego
+
+Laboratório focado em captura e análise de pacotes utilizando **tcpdump** em uma topologia simples com dois hosts Linux conectados na mesma rede.
+
+### Lab 5 – Observação de ARP
+
+Laboratório dedicado à observação do funcionamento do protocolo **ARP (Address Resolution Protocol)** em uma topologia com múltiplos hosts distribuídos em duas sub-redes conectadas por um roteador Linux.
+
+### Lab 6 – Servidor NAS com Samba
+
+Implementação de um pequeno ambiente **NAS** utilizando Samba, containers Docker personalizados e automação com scripts Bash.

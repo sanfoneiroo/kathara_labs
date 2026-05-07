@@ -56,3 +56,5 @@ Após a configuração:
 A tabela de roteamento dos roteadores pode ser verificada com:
 route -n
 confirmando a presença das rotas estáticas configuradas.
+
+![topologia](lab3.png)

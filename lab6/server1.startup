@@ -1,0 +1,20 @@
+ip addr add 192.168.2.10/24 dev eth0
+ip link set eth0 up
+
+ip route add default via 192.168.2.1
+
+mkdir -p /share
+
+grep -q "\[share\]" /etc/samba/smb.conf || cat >> /etc/samba/smb.conf << EOF
+
+[share]
+path = /share
+browseable = yes
+read only = no
+guest ok = yes
+EOF
+
+chown nobody:nogroup /share
+chmod 777 /share
+
+echo "Servidor iniciado em: $(date)" >> /share/startup.txt

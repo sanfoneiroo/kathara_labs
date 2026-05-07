@@ -87,3 +87,5 @@ O script de coleta executa automaticamente as seguintes etapas:
 5. grava todos os resultados em arquivos de log
 
 Essas informações permitem observar como os endereços MAC são aprendidos dinamicamente pelo protocolo ARP.
+
+![topologia](lab5.png)
