@@ -14,20 +14,6 @@ Os laboratórios utilizam principalmente ferramentas do ecossistema Linux:
 - **Bash scripting** para automação das configurações  
 - **ICMP (ping)** para validação de conectividade  
 
-## Estrutura do repositório
-├── lab1-basic-connectivity
-├── lab2-vlan-intervlan-routing
-├── lab3-static-routing
-├── lab4-traffic-analysis
-├── lab5-arp-observation
-└── lab6-samba-nas
-
-Cada diretório contém:
-
-- definição da topologia (`lab.conf`)
-- scripts de configuração
-- README explicando o laboratório
-
 ## Laboratórios disponíveis
 
 ### Lab 1 – Conectividade básica
@@ -53,3 +39,7 @@ Laboratório dedicado à observação do funcionamento do protocolo **ARP (Addre
 ### Lab 6 – Servidor NAS com Samba
 
 Implementação de um pequeno ambiente **NAS** utilizando Samba, containers Docker personalizados e automação com scripts Bash.
+
+### Lab 7 - Acesso à Internet com NAT
+
+Laboratório dedicado à implementação de acesso à internet real em uma topologia virtual do Kathará utilizando um container Linux atuando como roteador NAT, integrado à bridge padrão do Docker.
